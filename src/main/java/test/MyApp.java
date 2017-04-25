@@ -23,7 +23,7 @@ public class MyApp {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String sayHello(@PathParam("hello") String helloStr) {
-        return "Jersey says "+helloStr;
+        return "Jersey docker says "+helloStr;
     }
     
     @Path("service/{hello}/")
